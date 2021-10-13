@@ -13,9 +13,8 @@ double l0 = , locc = , lfree = ;
 
 double gridWidth = 100, gridHeight = 100;
 double mapWidth = 30000, mapHeight = 15000;
-
-// Robot size with respect to the map 
 double robotXOffset = mapWidth / 5, robotYOffset = mapHeight / 3;
+
 // Defining an l vector to store the log odds values of each cell
 vector< vector<double> > l(mapWidth/gridWidth, vector<double>(mapHeight/gridHeight));
 
